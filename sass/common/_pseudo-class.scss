@@ -24,6 +24,8 @@
 
 .#{$layout}:before,
 .#{$layout}:after,
+//.#{$grid}:before,
+//.#{$grid}:after,
 .#{$row}:before,
 .#{$row}:after {
   display: table;
@@ -31,22 +33,23 @@
 }
 
 .#{$layout}:after,
+//.#{$grid}:after,
 .#{$row}:after {
   clear: both;
 }
 
-//.#{$wrapper}:before,
-//.#{$wrapper}:after,
-//.#{$package}:before,
-//.#{$package}:after {
-//  display: table;
-//  content: "";
-//}
-//
-//.#{$wrapper}:after,
-//.#{$package}:after {
-//  clear: both;
-//}
+.#{$wrapper}:before,
+.#{$wrapper}:after,
+.#{$package}:before,
+.#{$package}:after {
+  display: table;
+  content: "";
+}
+
+.#{$wrapper}:after,
+.#{$package}:after {
+  clear: both;
+}
 
 .#{$average}:before,
 .#{$average}:after {

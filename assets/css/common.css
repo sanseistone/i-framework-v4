@@ -857,13 +857,32 @@
 
 .layout,
 .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.layout,
+.row {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+}
+
+.wrapper,
+.package {
+  position: relative;
+  width: 100%;
+}
+
+.wrapper,
+.package {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1199px) {
@@ -145608,6 +145627,19 @@ Grid布局
   clear: both;
 }
 
+.wrapper:before,
+.wrapper:after,
+.package:before,
+.package:after {
+  display: table;
+  content: "";
+}
+
+.wrapper:after,
+.package:after {
+  clear: both;
+}
+
 .average:before,
 .average:after {
   display: table;
@@ -145617,3 +145649,5 @@ Grid布局
 .average:after {
   clear: both;
 }
+
+/*# sourceMappingURL=common.css.map */
