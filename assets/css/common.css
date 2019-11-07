@@ -60333,10 +60333,19 @@ Grid布局
 .layout > [class^="w-"],
 .row > [class^="w-"] {
   position: relative;
-  min-height: 1px;
-  /*float: left;*/
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.layout > [class^="w-"],
+.row > [class^="w-"] {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  max-width: 100%;
 }
 
 .w-5p {
@@ -96257,9 +96266,18 @@ Grid布局
 }
 .average {
   position: relative;
-  min-height: 1px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.average {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  max-width: 100%;
 }
 
 .layout.one > .average, .row.one > .average {
@@ -96453,7 +96471,7 @@ Grid布局
 }
 [class^="col-"] {
   position: relative;
-  min-height: 1px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }

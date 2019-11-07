@@ -24,8 +24,6 @@
 
 .#{$layout}:before,
 .#{$layout}:after,
-//.#{$grid}:before,
-//.#{$grid}:after,
 .#{$row}:before,
 .#{$row}:after {
   display: table;
@@ -33,7 +31,6 @@
 }
 
 .#{$layout}:after,
-//.#{$grid}:after,
 .#{$row}:after {
   clear: both;
 }

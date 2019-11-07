@@ -17,14 +17,12 @@
 }
 
 .#{$layout},
-//.#{$grid},
 .#{$row} {
   margin-right: -15px;
   margin-left: -15px;
 }
 
 .#{$layout},
-//.#{$grid},
 .#{$row} {
   display: -ms-flexbox;
   display: flex;
