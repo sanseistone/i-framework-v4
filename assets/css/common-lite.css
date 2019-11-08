@@ -36366,18 +36366,8 @@ Grid布局
 }
 .average {
   position: relative;
-  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.average {
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -ms-flex-positive: 1;
-  -webkit-box-flex: 1;
-          flex-grow: 1;
-  max-width: 100%;
 }
 
 .layout.one > .average, .row.one > .average {
@@ -45927,3 +45917,5 @@ Grid布局
 .average:after {
   clear: both;
 }
+
+/*# sourceMappingURL=common-lite.css.map */
