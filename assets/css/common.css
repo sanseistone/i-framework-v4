@@ -1505,6 +1505,10 @@
   font-weight: 900;
 }
 
+[class*="fa"].black {
+  color: black;
+}
+
 [class*="fa"].color0 {
   color: black;
 }
@@ -1566,6 +1570,10 @@
 }
 
 [class*="fa"].colorf {
+  color: white;
+}
+
+[class*="fa"].white {
   color: white;
 }
 
@@ -2662,6 +2670,10 @@
 }
 
 @media (max-width: 1199px) {
+  [class*="fa"].black-lg {
+    color: black;
+  }
+
   [class*="fa"].color0-lg {
     color: black;
   }
@@ -2723,6 +2735,10 @@
   }
 
   [class*="fa"].colorf-lg {
+    color: white;
+  }
+
+  [class*="fa"].white-lg {
     color: white;
   }
 
@@ -3819,6 +3835,10 @@
   }
 }
 @media (max-width: 991px) {
+  [class*="fa"].black-md {
+    color: black;
+  }
+
   [class*="fa"].color0-md {
     color: black;
   }
@@ -3880,6 +3900,10 @@
   }
 
   [class*="fa"].colorf-md {
+    color: white;
+  }
+
+  [class*="fa"].white-md {
     color: white;
   }
 
@@ -4976,6 +5000,10 @@
   }
 }
 @media (max-width: 767px) {
+  [class*="fa"].black-sm {
+    color: black;
+  }
+
   [class*="fa"].color0-sm {
     color: black;
   }
@@ -5037,6 +5065,10 @@
   }
 
   [class*="fa"].colorf-sm {
+    color: white;
+  }
+
+  [class*="fa"].white-sm {
     color: white;
   }
 
@@ -6133,6 +6165,10 @@
   }
 }
 @media (max-width: 575px) {
+  [class*="fa"].black-xs {
+    color: black;
+  }
+
   [class*="fa"].color0-xs {
     color: black;
   }
@@ -6194,6 +6230,10 @@
   }
 
   [class*="fa"].colorf-xs {
+    color: white;
+  }
+
+  [class*="fa"].white-xs {
     color: white;
   }
 
@@ -7309,6 +7349,10 @@
   background: #1e88e5;
 }
 
+.heading.black {
+  color: white;
+  background-color: black;
+}
 .heading.color0 {
   color: white;
   background-color: black;
@@ -7370,6 +7414,10 @@
   background-color: #eeeeee;
 }
 .heading.colorf {
+  color: #222222;
+  background-color: white;
+}
+.heading.white {
   color: #222222;
   background-color: white;
 }
@@ -10033,6 +10081,10 @@
 }
 
 @media (max-width: 1199px) {
+  .heading.black-lg {
+    color: white;
+    background-color: black;
+  }
   .heading.color0-lg {
     color: white;
     background-color: black;
@@ -10094,6 +10146,10 @@
     background-color: #eeeeee;
   }
   .heading.colorf-lg {
+    color: #222222;
+    background-color: white;
+  }
+  .heading.white-lg {
     color: #222222;
     background-color: white;
   }
@@ -12728,6 +12784,10 @@
   }
 }
 @media (max-width: 991px) {
+  .heading.black-md {
+    color: white;
+    background-color: black;
+  }
   .heading.color0-md {
     color: white;
     background-color: black;
@@ -12789,6 +12849,10 @@
     background-color: #eeeeee;
   }
   .heading.colorf-md {
+    color: #222222;
+    background-color: white;
+  }
+  .heading.white-md {
     color: #222222;
     background-color: white;
   }
@@ -15423,6 +15487,10 @@
   }
 }
 @media (max-width: 767px) {
+  .heading.black-sm {
+    color: white;
+    background-color: black;
+  }
   .heading.color0-sm {
     color: white;
     background-color: black;
@@ -15484,6 +15552,10 @@
     background-color: #eeeeee;
   }
   .heading.colorf-sm {
+    color: #222222;
+    background-color: white;
+  }
+  .heading.white-sm {
     color: #222222;
     background-color: white;
   }
@@ -18118,6 +18190,10 @@
   }
 }
 @media (max-width: 575px) {
+  .heading.black-xs {
+    color: white;
+    background-color: black;
+  }
   .heading.color0-xs {
     color: white;
     background-color: black;
@@ -18179,6 +18255,10 @@
     background-color: #eeeeee;
   }
   .heading.colorf-xs {
+    color: #222222;
+    background-color: white;
+  }
+  .heading.white-xs {
     color: #222222;
     background-color: white;
   }
@@ -20818,6 +20898,9 @@ a.hover.underline {
 a.hover.no-underline {
   text-decoration: none;
 }
+a.hover.black:focus, a.hover.black:hover {
+  color: black;
+}
 a.hover.color0:focus, a.hover.color0:hover {
   color: black;
 }
@@ -20864,6 +20947,9 @@ a.hover.colore:focus, a.hover.colore:hover {
   color: #eeeeee;
 }
 a.hover.colorf:focus, a.hover.colorf:hover {
+  color: white;
+}
+a.hover.white:focus, a.hover.white:hover {
   color: white;
 }
 a.hover.red:focus, a.hover.red:hover {
@@ -21750,6 +21836,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
   a.hover.no-underline-lg {
     text-decoration: none;
   }
+  a.hover.black-lg:focus, a.hover.black-lg:hover {
+    color: black;
+  }
   a.hover.color0-lg:focus, a.hover.color0-lg:hover {
     color: black;
   }
@@ -21796,6 +21885,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
     color: #eeeeee;
   }
   a.hover.colorf-lg:focus, a.hover.colorf-lg:hover {
+    color: white;
+  }
+  a.hover.white-lg:focus, a.hover.white-lg:hover {
     color: white;
   }
   a.hover.red-lg:focus, a.hover.red-lg:hover {
@@ -22682,6 +22774,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
   a.hover.no-underline-md {
     text-decoration: none;
   }
+  a.hover.black-md:focus, a.hover.black-md:hover {
+    color: black;
+  }
   a.hover.color0-md:focus, a.hover.color0-md:hover {
     color: black;
   }
@@ -22728,6 +22823,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
     color: #eeeeee;
   }
   a.hover.colorf-md:focus, a.hover.colorf-md:hover {
+    color: white;
+  }
+  a.hover.white-md:focus, a.hover.white-md:hover {
     color: white;
   }
   a.hover.red-md:focus, a.hover.red-md:hover {
@@ -23614,6 +23712,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
   a.hover.no-underline-sm {
     text-decoration: none;
   }
+  a.hover.black-sm:focus, a.hover.black-sm:hover {
+    color: black;
+  }
   a.hover.color0-sm:focus, a.hover.color0-sm:hover {
     color: black;
   }
@@ -23660,6 +23761,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
     color: #eeeeee;
   }
   a.hover.colorf-sm:focus, a.hover.colorf-sm:hover {
+    color: white;
+  }
+  a.hover.white-sm:focus, a.hover.white-sm:hover {
     color: white;
   }
   a.hover.red-sm:focus, a.hover.red-sm:hover {
@@ -24546,6 +24650,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
   a.hover.no-underline-xs {
     text-decoration: none;
   }
+  a.hover.black-xs:focus, a.hover.black-xs:hover {
+    color: black;
+  }
   a.hover.color0-xs:focus, a.hover.color0-xs:hover {
     color: black;
   }
@@ -24592,6 +24699,9 @@ a.hover.blue-grey:focus, a.hover.blue-grey:hover {
     color: #eeeeee;
   }
   a.hover.colorf-xs:focus, a.hover.colorf-xs:hover {
+    color: white;
+  }
+  a.hover.white-xs:focus, a.hover.white-xs:hover {
     color: white;
   }
   a.hover.red-xs:focus, a.hover.red-xs:hover {
@@ -26655,6 +26765,9 @@ ul.list.solid > li:last-child, ul.list.dashed > li:last-child, ul.list.dotted > 
   border-bottom: none;
 }
 
+ul.list .black > li > a {
+  color: black;
+}
 ul.list .color0 > li > a {
   color: black;
 }
@@ -26701,6 +26814,9 @@ ul.list .colore > li > a {
   color: #eeeeee;
 }
 ul.list .colorf > li > a {
+  color: white;
+}
+ul.list .white > li > a {
   color: white;
 }
 ul.list .red > li > a {
@@ -27580,6 +27696,10 @@ ul.list .blue-grey > li > a {
   color: #546e7a;
 }
 
+ul.list .hover.black > li > a:hover,
+ul.list .hover.black > li > a:focus {
+  color: black;
+}
 ul.list .hover.color0 > li > a:hover,
 ul.list .hover.color0 > li > a:focus {
   color: black;
@@ -27642,6 +27762,10 @@ ul.list .hover.colore > li > a:focus {
 }
 ul.list .hover.colorf > li > a:hover,
 ul.list .hover.colorf > li > a:focus {
+  color: white;
+}
+ul.list .hover.white > li > a:hover,
+ul.list .hover.white > li > a:focus {
   color: white;
 }
 ul.list .hover.red > li > a:hover,
@@ -28926,6 +29050,9 @@ ul.katakana-iroha {
     float: left;
   }
 
+  ul.list .black-lg > li > a {
+    color: black;
+  }
   ul.list .color0-lg > li > a {
     color: black;
   }
@@ -28972,6 +29099,9 @@ ul.katakana-iroha {
     color: #eeeeee;
   }
   ul.list .colorf-lg > li > a {
+    color: white;
+  }
+  ul.list .white-lg > li > a {
     color: white;
   }
   ul.list .red-lg > li > a {
@@ -29851,6 +29981,10 @@ ul.katakana-iroha {
     color: #546e7a;
   }
 
+  ul.list .hover.black-lg > li > a:hover,
+  ul.list .hover.black-lg > li > a:focus {
+    color: black;
+  }
   ul.list .hover.color0-lg > li > a:hover,
   ul.list .hover.color0-lg > li > a:focus {
     color: black;
@@ -29913,6 +30047,10 @@ ul.katakana-iroha {
   }
   ul.list .hover.colorf-lg > li > a:hover,
   ul.list .hover.colorf-lg > li > a:focus {
+    color: white;
+  }
+  ul.list .hover.white-lg > li > a:hover,
+  ul.list .hover.white-lg > li > a:focus {
     color: white;
   }
   ul.list .hover.red-lg > li > a:hover,
@@ -31197,6 +31335,9 @@ ul.katakana-iroha {
     float: left;
   }
 
+  ul.list .black-md > li > a {
+    color: black;
+  }
   ul.list .color0-md > li > a {
     color: black;
   }
@@ -31243,6 +31384,9 @@ ul.katakana-iroha {
     color: #eeeeee;
   }
   ul.list .colorf-md > li > a {
+    color: white;
+  }
+  ul.list .white-md > li > a {
     color: white;
   }
   ul.list .red-md > li > a {
@@ -32122,6 +32266,10 @@ ul.katakana-iroha {
     color: #546e7a;
   }
 
+  ul.list .hover.black-md > li > a:hover,
+  ul.list .hover.black-md > li > a:focus {
+    color: black;
+  }
   ul.list .hover.color0-md > li > a:hover,
   ul.list .hover.color0-md > li > a:focus {
     color: black;
@@ -32184,6 +32332,10 @@ ul.katakana-iroha {
   }
   ul.list .hover.colorf-md > li > a:hover,
   ul.list .hover.colorf-md > li > a:focus {
+    color: white;
+  }
+  ul.list .hover.white-md > li > a:hover,
+  ul.list .hover.white-md > li > a:focus {
     color: white;
   }
   ul.list .hover.red-md > li > a:hover,
@@ -33468,6 +33620,9 @@ ul.katakana-iroha {
     float: left;
   }
 
+  ul.list .black-sm > li > a {
+    color: black;
+  }
   ul.list .color0-sm > li > a {
     color: black;
   }
@@ -33514,6 +33669,9 @@ ul.katakana-iroha {
     color: #eeeeee;
   }
   ul.list .colorf-sm > li > a {
+    color: white;
+  }
+  ul.list .white-sm > li > a {
     color: white;
   }
   ul.list .red-sm > li > a {
@@ -34393,6 +34551,10 @@ ul.katakana-iroha {
     color: #546e7a;
   }
 
+  ul.list .hover.black-sm > li > a:hover,
+  ul.list .hover.black-sm > li > a:focus {
+    color: black;
+  }
   ul.list .hover.color0-sm > li > a:hover,
   ul.list .hover.color0-sm > li > a:focus {
     color: black;
@@ -34455,6 +34617,10 @@ ul.katakana-iroha {
   }
   ul.list .hover.colorf-sm > li > a:hover,
   ul.list .hover.colorf-sm > li > a:focus {
+    color: white;
+  }
+  ul.list .hover.white-sm > li > a:hover,
+  ul.list .hover.white-sm > li > a:focus {
     color: white;
   }
   ul.list .hover.red-sm > li > a:hover,
@@ -35739,6 +35905,9 @@ ul.katakana-iroha {
     float: left;
   }
 
+  ul.list .black-xs > li > a {
+    color: black;
+  }
   ul.list .color0-xs > li > a {
     color: black;
   }
@@ -35785,6 +35954,9 @@ ul.katakana-iroha {
     color: #eeeeee;
   }
   ul.list .colorf-xs > li > a {
+    color: white;
+  }
+  ul.list .white-xs > li > a {
     color: white;
   }
   ul.list .red-xs > li > a {
@@ -36664,6 +36836,10 @@ ul.katakana-iroha {
     color: #546e7a;
   }
 
+  ul.list .hover.black-xs > li > a:hover,
+  ul.list .hover.black-xs > li > a:focus {
+    color: black;
+  }
   ul.list .hover.color0-xs > li > a:hover,
   ul.list .hover.color0-xs > li > a:focus {
     color: black;
@@ -36726,6 +36902,10 @@ ul.katakana-iroha {
   }
   ul.list .hover.colorf-xs > li > a:hover,
   ul.list .hover.colorf-xs > li > a:focus {
+    color: white;
+  }
+  ul.list .hover.white-xs > li > a:hover,
+  ul.list .hover.white-xs > li > a:focus {
     color: white;
   }
   ul.list .hover.red-xs > li > a:hover,
@@ -38007,6 +38187,12 @@ input[type="number"] {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+.form.black:not(:hover):not(.hover) {
+  border-color: black;
+}
+.form.black.hover:focus, .form.black.hover:hover {
+  border-color: black;
+}
 .form.color0:not(:hover):not(.hover) {
   border-color: black;
 }
@@ -38101,6 +38287,12 @@ input[type="number"] {
   border-color: white;
 }
 .form.colorf.hover:focus, .form.colorf.hover:hover {
+  border-color: #e6e6e6;
+}
+.form.white:not(:hover):not(.hover) {
+  border-color: white;
+}
+.form.white.hover:focus, .form.white.hover:hover {
   border-color: #e6e6e6;
 }
 .form.red:not(:hover):not(.hover) {
@@ -39857,6 +40049,12 @@ input[type="number"] {
 }
 
 @media (max-width: 1199px) {
+  .form.black-lg:not(:hover):not(.hover) {
+    border-color: black;
+  }
+  .form.black-lg.hover:focus, .form.black-lg.hover:hover {
+    border-color: black;
+  }
   .form.color0-lg:not(:hover):not(.hover) {
     border-color: black;
   }
@@ -39951,6 +40149,12 @@ input[type="number"] {
     border-color: white;
   }
   .form.colorf-lg.hover:focus, .form.colorf-lg.hover:hover {
+    border-color: #e6e6e6;
+  }
+  .form.white-lg:not(:hover):not(.hover) {
+    border-color: white;
+  }
+  .form.white-lg.hover:focus, .form.white-lg.hover:hover {
     border-color: #e6e6e6;
   }
   .form.red-lg:not(:hover):not(.hover) {
@@ -41707,6 +41911,12 @@ input[type="number"] {
   }
 }
 @media (max-width: 991px) {
+  .form.black-md:not(:hover):not(.hover) {
+    border-color: black;
+  }
+  .form.black-md.hover:focus, .form.black-md.hover:hover {
+    border-color: black;
+  }
   .form.color0-md:not(:hover):not(.hover) {
     border-color: black;
   }
@@ -41801,6 +42011,12 @@ input[type="number"] {
     border-color: white;
   }
   .form.colorf-md.hover:focus, .form.colorf-md.hover:hover {
+    border-color: #e6e6e6;
+  }
+  .form.white-md:not(:hover):not(.hover) {
+    border-color: white;
+  }
+  .form.white-md.hover:focus, .form.white-md.hover:hover {
     border-color: #e6e6e6;
   }
   .form.red-md:not(:hover):not(.hover) {
@@ -43557,6 +43773,12 @@ input[type="number"] {
   }
 }
 @media (max-width: 767px) {
+  .form.black-sm:not(:hover):not(.hover) {
+    border-color: black;
+  }
+  .form.black-sm.hover:focus, .form.black-sm.hover:hover {
+    border-color: black;
+  }
   .form.color0-sm:not(:hover):not(.hover) {
     border-color: black;
   }
@@ -43651,6 +43873,12 @@ input[type="number"] {
     border-color: white;
   }
   .form.colorf-sm.hover:focus, .form.colorf-sm.hover:hover {
+    border-color: #e6e6e6;
+  }
+  .form.white-sm:not(:hover):not(.hover) {
+    border-color: white;
+  }
+  .form.white-sm.hover:focus, .form.white-sm.hover:hover {
     border-color: #e6e6e6;
   }
   .form.red-sm:not(:hover):not(.hover) {
@@ -45407,6 +45635,12 @@ input[type="number"] {
   }
 }
 @media (max-width: 575px) {
+  .form.black-xs:not(:hover):not(.hover) {
+    border-color: black;
+  }
+  .form.black-xs.hover:focus, .form.black-xs.hover:hover {
+    border-color: black;
+  }
   .form.color0-xs:not(:hover):not(.hover) {
     border-color: black;
   }
@@ -45501,6 +45735,12 @@ input[type="number"] {
     border-color: white;
   }
   .form.colorf-xs.hover:focus, .form.colorf-xs.hover:hover {
+    border-color: #e6e6e6;
+  }
+  .form.white-xs:not(:hover):not(.hover) {
+    border-color: white;
+  }
+  .form.white-xs.hover:focus, .form.white-xs.hover:hover {
     border-color: #e6e6e6;
   }
   .form.red-xs:not(:hover):not(.hover) {
@@ -98628,6 +98868,10 @@ Grid布局
   color: #1e88e5;
 }
 
+.font-black {
+  color: black;
+}
+
 .font-color0 {
   color: black;
 }
@@ -98689,6 +98933,10 @@ Grid布局
 }
 
 .font-colorf {
+  color: white;
+}
+
+.font-white {
   color: white;
 }
 
@@ -99861,6 +100109,10 @@ Grid布局
 }
 
 @media (max-width: 1199px) {
+  .font-black-lg {
+    color: black;
+  }
+
   .font-color0-lg {
     color: black;
   }
@@ -99922,6 +100174,10 @@ Grid布局
   }
 
   .font-colorf-lg {
+    color: white;
+  }
+
+  .font-white-lg {
     color: white;
   }
 
@@ -101094,6 +101350,10 @@ Grid布局
   }
 }
 @media (max-width: 991px) {
+  .font-black-md {
+    color: black;
+  }
+
   .font-color0-md {
     color: black;
   }
@@ -101155,6 +101415,10 @@ Grid布局
   }
 
   .font-colorf-md {
+    color: white;
+  }
+
+  .font-white-md {
     color: white;
   }
 
@@ -102327,6 +102591,10 @@ Grid布局
   }
 }
 @media (max-width: 767px) {
+  .font-black-sm {
+    color: black;
+  }
+
   .font-color0-sm {
     color: black;
   }
@@ -102388,6 +102656,10 @@ Grid布局
   }
 
   .font-colorf-sm {
+    color: white;
+  }
+
+  .font-white-sm {
     color: white;
   }
 
@@ -103560,6 +103832,10 @@ Grid布局
   }
 }
 @media (max-width: 575px) {
+  .font-black-xs {
+    color: black;
+  }
+
   .font-color0-xs {
     color: black;
   }
@@ -103621,6 +103897,10 @@ Grid布局
   }
 
   .font-colorf-xs {
+    color: white;
+  }
+
+  .font-white-xs {
     color: white;
   }
 
@@ -106623,6 +106903,10 @@ Grid布局
   border-color: transparent;
 }
 
+.border-black {
+  border-color: black;
+}
+
 .border-color0 {
   border-color: black;
 }
@@ -106684,6 +106968,10 @@ Grid布局
 }
 
 .border-colorf {
+  border-color: white;
+}
+
+.border-white {
   border-color: white;
 }
 
@@ -107860,6 +108148,10 @@ Grid布局
     border-color: transparent;
   }
 
+  .border-black-lg {
+    border-color: black;
+  }
+
   .border-color0-lg {
     border-color: black;
   }
@@ -107921,6 +108213,10 @@ Grid布局
   }
 
   .border-colorf-lg {
+    border-color: white;
+  }
+
+  .border-white-lg {
     border-color: white;
   }
 
@@ -109097,6 +109393,10 @@ Grid布局
     border-color: transparent;
   }
 
+  .border-black-md {
+    border-color: black;
+  }
+
   .border-color0-md {
     border-color: black;
   }
@@ -109158,6 +109458,10 @@ Grid布局
   }
 
   .border-colorf-md {
+    border-color: white;
+  }
+
+  .border-white-md {
     border-color: white;
   }
 
@@ -110334,6 +110638,10 @@ Grid布局
     border-color: transparent;
   }
 
+  .border-black-sm {
+    border-color: black;
+  }
+
   .border-color0-sm {
     border-color: black;
   }
@@ -110395,6 +110703,10 @@ Grid布局
   }
 
   .border-colorf-sm {
+    border-color: white;
+  }
+
+  .border-white-sm {
     border-color: white;
   }
 
@@ -111571,6 +111883,10 @@ Grid布局
     border-color: transparent;
   }
 
+  .border-black-xs {
+    border-color: black;
+  }
+
   .border-color0-xs {
     border-color: black;
   }
@@ -111632,6 +111948,10 @@ Grid布局
   }
 
   .border-colorf-xs {
+    border-color: white;
+  }
+
+  .border-white-xs {
     border-color: white;
   }
 
@@ -114242,6 +114562,12 @@ Grid布局
   background-color: #1e88e5;
 }
 
+.btn-black {
+  color: white;
+  border-color: black;
+  background-color: black;
+}
+
 .btn-color0 {
   color: white;
   border-color: black;
@@ -114333,6 +114659,12 @@ Grid布局
 }
 
 .btn-colorf {
+  color: #222222;
+  border-color: white;
+  background-color: white;
+}
+
+.btn-white {
   color: #222222;
   border-color: white;
   background-color: white;
@@ -115976,6 +116308,17 @@ Grid布局
   background-color: #263238;
 }
 
+.btn-black-o {
+  color: black;
+  border-color: black;
+  background: transparent;
+}
+.btn-black-o:focus, .btn-black-o:hover {
+  color: white;
+  border-color: black;
+  background-color: black;
+}
+
 .btn-color0-o {
   color: black;
   border-color: black;
@@ -116147,6 +116490,17 @@ Grid布局
   background: transparent;
 }
 .btn-colorf-o:focus, .btn-colorf-o:hover {
+  color: #222222;
+  border-color: white;
+  background-color: white;
+}
+
+.btn-white-o {
+  color: white;
+  border-color: white;
+  background: transparent;
+}
+.btn-white-o:focus, .btn-white-o:hover {
   color: #222222;
   border-color: white;
   background-color: white;
@@ -119156,6 +119510,12 @@ Grid布局
 }
 
 @media (max-width: 1199px) {
+  .btn-black-lg {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-lg {
     color: white;
     border-color: black;
@@ -119247,6 +119607,12 @@ Grid布局
   }
 
   .btn-colorf-lg {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-lg {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -120890,6 +121256,17 @@ Grid布局
     background-color: #263238;
   }
 
+  .btn-black-o-lg {
+    color: black;
+    border-color: black;
+    background: transparent;
+  }
+  .btn-black-o-lg:focus, .btn-black-o-lg:hover {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-o-lg {
     color: black;
     border-color: black;
@@ -121061,6 +121438,17 @@ Grid布局
     background: transparent;
   }
   .btn-colorf-o-lg:focus, .btn-colorf-o-lg:hover {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-o-lg {
+    color: white;
+    border-color: white;
+    background: transparent;
+  }
+  .btn-white-o-lg:focus, .btn-white-o-lg:hover {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -124070,6 +124458,12 @@ Grid布局
   }
 }
 @media (max-width: 991px) {
+  .btn-black-md {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-md {
     color: white;
     border-color: black;
@@ -124161,6 +124555,12 @@ Grid布局
   }
 
   .btn-colorf-md {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-md {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -125804,6 +126204,17 @@ Grid布局
     background-color: #263238;
   }
 
+  .btn-black-o-md {
+    color: black;
+    border-color: black;
+    background: transparent;
+  }
+  .btn-black-o-md:focus, .btn-black-o-md:hover {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-o-md {
     color: black;
     border-color: black;
@@ -125975,6 +126386,17 @@ Grid布局
     background: transparent;
   }
   .btn-colorf-o-md:focus, .btn-colorf-o-md:hover {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-o-md {
+    color: white;
+    border-color: white;
+    background: transparent;
+  }
+  .btn-white-o-md:focus, .btn-white-o-md:hover {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -128984,6 +129406,12 @@ Grid布局
   }
 }
 @media (max-width: 767px) {
+  .btn-black-sm {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-sm {
     color: white;
     border-color: black;
@@ -129075,6 +129503,12 @@ Grid布局
   }
 
   .btn-colorf-sm {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-sm {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -130718,6 +131152,17 @@ Grid布局
     background-color: #263238;
   }
 
+  .btn-black-o-sm {
+    color: black;
+    border-color: black;
+    background: transparent;
+  }
+  .btn-black-o-sm:focus, .btn-black-o-sm:hover {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-o-sm {
     color: black;
     border-color: black;
@@ -130889,6 +131334,17 @@ Grid布局
     background: transparent;
   }
   .btn-colorf-o-sm:focus, .btn-colorf-o-sm:hover {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-o-sm {
+    color: white;
+    border-color: white;
+    background: transparent;
+  }
+  .btn-white-o-sm:focus, .btn-white-o-sm:hover {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -133898,6 +134354,12 @@ Grid布局
   }
 }
 @media (max-width: 575px) {
+  .btn-black-xs {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-xs {
     color: white;
     border-color: black;
@@ -133989,6 +134451,12 @@ Grid布局
   }
 
   .btn-colorf-xs {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-xs {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -135632,6 +136100,17 @@ Grid布局
     background-color: #263238;
   }
 
+  .btn-black-o-xs {
+    color: black;
+    border-color: black;
+    background: transparent;
+  }
+  .btn-black-o-xs:focus, .btn-black-o-xs:hover {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+
   .btn-color0-o-xs {
     color: black;
     border-color: black;
@@ -135803,6 +136282,17 @@ Grid布局
     background: transparent;
   }
   .btn-colorf-o-xs:focus, .btn-colorf-o-xs:hover {
+    color: #222222;
+    border-color: white;
+    background-color: white;
+  }
+
+  .btn-white-o-xs {
+    color: white;
+    border-color: white;
+    background: transparent;
+  }
+  .btn-white-o-xs:focus, .btn-white-o-xs:hover {
     color: #222222;
     border-color: white;
     background-color: white;
@@ -139248,6 +139738,10 @@ Grid布局
   background-color: transparent;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .bg-color0 {
   background-color: black;
 }
@@ -139309,6 +139803,10 @@ Grid布局
 }
 
 .bg-colorf {
+  background-color: white;
+}
+
+.bg-white {
   background-color: white;
 }
 
@@ -140485,6 +140983,10 @@ Grid布局
     background-color: transparent;
   }
 
+  .bg-black-lg {
+    background-color: black;
+  }
+
   .bg-color0-lg {
     background-color: black;
   }
@@ -140546,6 +141048,10 @@ Grid布局
   }
 
   .bg-colorf-lg {
+    background-color: white;
+  }
+
+  .bg-white-lg {
     background-color: white;
   }
 
@@ -141722,6 +142228,10 @@ Grid布局
     background-color: transparent;
   }
 
+  .bg-black-md {
+    background-color: black;
+  }
+
   .bg-color0-md {
     background-color: black;
   }
@@ -141783,6 +142293,10 @@ Grid布局
   }
 
   .bg-colorf-md {
+    background-color: white;
+  }
+
+  .bg-white-md {
     background-color: white;
   }
 
@@ -142959,6 +143473,10 @@ Grid布局
     background-color: transparent;
   }
 
+  .bg-black-sm {
+    background-color: black;
+  }
+
   .bg-color0-sm {
     background-color: black;
   }
@@ -143020,6 +143538,10 @@ Grid布局
   }
 
   .bg-colorf-sm {
+    background-color: white;
+  }
+
+  .bg-white-sm {
     background-color: white;
   }
 
@@ -144196,6 +144718,10 @@ Grid布局
     background-color: transparent;
   }
 
+  .bg-black-xs {
+    background-color: black;
+  }
+
   .bg-color0-xs {
     background-color: black;
   }
@@ -144257,6 +144783,10 @@ Grid布局
   }
 
   .bg-colorf-xs {
+    background-color: white;
+  }
+
+  .bg-white-xs {
     background-color: white;
   }
 
