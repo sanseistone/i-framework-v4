@@ -30,7 +30,6 @@ body {
 
 a {
   color: #333333;
-  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
@@ -47,7 +46,6 @@ a:focus {
 img {
   width: 100%;
   height: auto;
-  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
@@ -3397,7 +3395,6 @@ img {
   color: white;
   border: 1px solid #1e88e5;
   background: #1e88e5;
-  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
